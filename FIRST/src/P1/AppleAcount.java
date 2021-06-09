@@ -13,6 +13,7 @@ public class AppleAcount {
 	public void T()
 	//public static void main(String[] args) {
 	{// TODO Auto-generated method stub
+	System.out.println("hi prends");
 		ChromeDriver a =new ChromeDriver();
 		a.get("https://appleid.apple.com/account");
 		a.manage().timeouts().implicitlyWait(15,TimeUnit.SECONDS);
